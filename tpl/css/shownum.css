@@ -1,0 +1,35 @@
+.shownum{position: relative;overflow: hidden;font-family: "Microsoft YaHei", "微软雅黑";  font-size: 28px;height: 28px;  color: #54BB00;}
+.shownum span{
+    height: 28px;line-height: 28px;width: 17px;
+    display: inline-block;
+    position: relative;
+}
+.shownum b{
+    width: 6px;
+    height: 22px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+.shownum span i{
+    height: 28px;line-height: 28px;width: 17px;
+    text-align: center;
+    display: inline-block;
+    font-style: normal;
+}
+/* 配色 */
+.shownum.green{color: #54BB00;}
+.shownum.grad{color: #696969;}
+.shownum.red{color:#E50000;}
+.shownum.blue{color: #2299EC;}
+.shownum.brown{color: #D78A1D;}
+
+
+/* 尺寸 */
+.shownum.small{font-size: 20px;height: 22px;}
+.shownum.small span, .shownum.small span i{
+    height: 22px;line-height: 22px;width: 12px;
+}
+.shownum.small b{width: 4px;font-size: 16px;height: 22px;}
+
