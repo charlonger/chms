@@ -21,8 +21,8 @@
             for(var i=0, len=String(num).length; i<len; i++){
                 var go_step = parseInt(String(num).charAt(i)) * settings.step * -1;
                 if(settings.type=='money' && (len-(i+1)+1)%3==0 && i!=0){
-                    var top = settings.step * 9 ;
-                    $(this).append("<b style='top:-"+ top +"px'>,</b>");
+                    var top = settings.step * 9;
+                    $(this).append("<b style='top:-"+ top +"px'><i>,</i><i>,</i><i>,</i><i>,</i><i>,</i><i>,</i><i>,</i><i>,</i><i>,</i><i>,</i></b>");
                 }
                 $(this).append(tpl);
 

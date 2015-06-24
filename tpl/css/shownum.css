@@ -6,11 +6,16 @@
 }
 .shownum b{
     width: 6px;
-    height: 22px;
+    height: 28px;
     display: inline-block;
     position: relative;
     text-align: center;
     font-size: 20px;
+}
+.shownum b i{
+    width: 6px;
+    height: 28px;
+    display: inline-block;
 }
 .shownum span i{
     height: 28px;line-height: 28px;width: 17px;
@@ -32,4 +37,4 @@
     height: 22px;line-height: 22px;width: 12px;
 }
 .shownum.small b{width: 4px;font-size: 16px;height: 22px;}
-
+.shownum.small b i{width: 4px;height: 22px;}
