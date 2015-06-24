@@ -8,20 +8,36 @@
     <link type="text/css" rel="stylesheet" href="./css/shownum.css" />
 </head>
 <body>
-<div class="shownum blue" attr-data="1234567890"></div>
-<div class="shownum red" attr-data="1234567890"></div>
-<div class="shownum grad" attr-data="1234567890"></div>
-<div class="shownum green" attr-data="1234567890"></div>
-<div class="shownum brown" attr-data="1234567890"></div>
-<br />
-<div class="shownum blue small" attr-data="1234567890"></div>
-<div class="shownum red small" attr-data="1234567890"></div>
-<div class="shownum grad small" attr-data="1234567890"></div>
-<div class="shownum green small" attr-data="1234567890"></div>
-<div class="shownum brown small" attr-data="1234567890"></div>
-
+<div class="type_num">
+    <div class="shownum blue" attr-data="1234567890"></div>
+    <div class="shownum red" attr-data="1234567890"></div>
+    <div class="shownum grad" attr-data="1234567890"></div>
+    <div class="shownum green" attr-data="1234567890"></div>
+    <div class="shownum brown" attr-data="1234567890"></div>
+    <br />
+    <div class="shownum blue small" attr-data="1234567890"></div>
+    <div class="shownum red small" attr-data="1234567890"></div>
+    <div class="shownum grad small" attr-data="1234567890"></div>
+    <div class="shownum green small" attr-data="1234567890"></div>
+    <div class="shownum brown small" attr-data="1234567890"></div>
+</div>
+<div class="type_money">
+    <br />
+    <div class="shownum blue " attr-data="1234567890"></div>
+    <div class="shownum red " attr-data="1234567890"></div>
+    <div class="shownum grad " attr-data="1234567890"></div>
+    <div class="shownum green " attr-data="1234567890"></div>
+    <div class="shownum brown " attr-data="1234567890"></div>
+    <br />
+    <div class="shownum blue small" attr-data="1234567890"></div>
+    <div class="shownum red small" attr-data="1234567890"></div>
+    <div class="shownum grad small" attr-data="1234567890"></div>
+    <div class="shownum green small" attr-data="1234567890"></div>
+    <div class="shownum brown small" attr-data="1234567890"></div>
+</div>
 <script type="text/javascript">
-$(".shownum").showNum({"type":"num"});
+$(".type_num .shownum").showNum({"type":"num"});
+$(".type_money .shownum").showNum({"type":"money"});
 </script>
 </body>
 </html>
